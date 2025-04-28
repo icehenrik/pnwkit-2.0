@@ -21,5 +21,5 @@ export default async function gameInfoQuery(
 
     this.setRateLimit(res.rateLimit);
 
-    return res.data.me as gameInfo;
+    return res.data as gameInfo;
 }
